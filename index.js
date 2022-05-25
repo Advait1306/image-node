@@ -42,7 +42,7 @@ app.get('/api', (req, res) => {
                 .toFile(filename+'resized.png')
         }
         
-
+        res.send("done")
       })
       .catch((err) => console.error(err));
 
